@@ -47,7 +47,7 @@
 	</script>
 	<script charset="UTF-8" src="https://cdn.sendpulse.com/28edd3380a1c17cf65b137fe96516659/js/push/df807c5af75370e50ef38ca623d6e72b_1.js" async></script>
 </head>
-<body id="top">
+<body id="top" style="display: none;">
 	<!-- Header -->
 	<header id="header" class="skel-layers-fixed">
 		<div class="logo" style="padding-left:10px; font-size: 22pt;color: black;">infroid</div>
@@ -209,6 +209,9 @@
 				</ul>
 			</div>
 		</footer>
-
+		<script type="text/javascript">
+		window.onload = function() 
+		 { document.getElementById("top").style.display = "inline"; }
+	</script>
 	</body>
 	</html>

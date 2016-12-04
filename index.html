@@ -47,7 +47,7 @@
 	</script>
 	<script charset="UTF-8" src="https://cdn.sendpulse.com/28edd3380a1c17cf65b137fe96516659/js/push/df807c5af75370e50ef38ca623d6e72b_1.js" async></script>
 </head>
-<body id="top">
+<body id="top" style="display: none;">
 	<!-- Header -->
 	<header id="header" class="skel-layers-fixed">
 		<div class="logo" style="padding-left:10px; font-size: 22pt;color: black;">infroid</div>
@@ -68,11 +68,11 @@
 	</header>
 
 	<!-- Banner -->
-	<section id="banner">
+	<section id="banner" style="min-height: 720px;">
 		<div class="inner">
 			<h2>infroid</h2>
 			<h6>providing modern IT solution for various scenarios</h6>
-			<br/><br/><br/><br/>
+			
 		</div>
 	</section>
 
@@ -144,7 +144,7 @@
 				<div class="8u">
 					<section>
 						<h2>Frequently used technologies</h2>
-						<div class="image fit"><img src="images/tech.jpg" alt="" /></div>
+						<div class="image fit"><img src="images/tech.svg" alt="Technology process workflow" onerror="this.src='images/tech.png'" /></div>
 						<p>Unless any specific requirement, we prefer to stick to the following technologies for corresponding use case.</p>
 						<table>
 							<tr>
@@ -181,16 +181,45 @@
 				<div class="4u">
 					<section>
 						<h3>We authenticate products</h3>
-						<div class="image fit"><img style="border-style:solid; border-width: 1px; padding:20px;" src="images/qr.jpeg" alt="" /></div>
+						<div class="image fit"><img style="border-style:solid; border-width: 1px; padding:20px;" src="images/qr.jpeg" alt="Infroid website QR" /></div>
 						<p>Using the simple QR technology and combining it with numerous other technologies, Infroid Authenticate can now provide solutions for authentication and validation of certain products simply by scanning the QR code.</p>
 					</section>
 					<hr />
 					<section>
 						<h3>We analyse sentiments</h3>
-						<ul class="alt">
-							<li><a href="#">Hinglish sentiment analysis</a></li>
-							<li><a href="#">Universal sentiment analysis</a></li>
-						</ul>
+						<div style="display: inline-flex;min-width: 100%;">
+							<div class="6u card" style="align-self: left;">
+								<div class="card-top">
+							  		<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+							  		<i class="fa fa-thumbs-down" aria-hidden="true"></i>
+							  	</div>
+							  	<div class="card-container">
+							    	<h4><b>Indian</b></h4> 
+							    	<ul>
+							    		<li>English</li>
+							    		<li>Hindi</li>
+							    		<li>Hinglish</li>
+							    	</ul>
+							  	</div>
+							</div>
+							<div class="1u">
+								
+							</div>
+							<div class="6u card" style="align-self: right;">
+								<div class="card-top">
+							  		<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+							  		<i class="fa fa-thumbs-down" aria-hidden="true"></i>
+							  	</div>
+							  	<div class="card-container">
+							    	<h4><b>Universal</b></h4> 
+							    	<ul>
+							    		<li>English</li>
+							    		<li>Hindi</li>
+							    		<li>French</li>
+							    	</ul>
+							  	</div>
+							</div>
+						</div>
 					</section>
 				</div>
 			</div>
@@ -270,6 +299,9 @@
 			</ul>
 		</div>
 	</footer>
-
+	<script type="text/javascript">
+		window.onload = function() 
+		 { document.getElementById("top").style.display = "inline"; }
+	</script>
 </body>
 </html>
