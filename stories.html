@@ -34,6 +34,53 @@
 		.logo{
 			font-family:'Samarkan Normal';
 		}
+
+		#qr_animation {
+		    -webkit-animation-name: qr_animation; /* Safari 4.0 - 8.0 */
+		    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+		    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+		    animation-name: qr_animation;
+		    animation-duration: 10s;
+		    animation-iteration-count: infinite;
+		}
+
+		/* Safari 4.0 - 8.0 */
+		@-webkit-keyframes qr_animation {
+		    0% {
+		    	-webkit-filter: blur(0px);
+		    }
+		    20% {
+		    	-webkit-filter: blur(10px);
+		    }
+		    40% {
+		    	-webkit-filter: blur(0px);
+		    }
+		    60% {
+		    	-webkit-filter: blur(5px);
+		    }
+		    100% {
+		    	-webkit-filter: blur(0px);
+		    }
+		}
+
+		/* Standard syntax */
+		@keyframes qr_animation {
+		    0% {
+		    	filter: blur(0px);
+		    }
+		    20% {
+		    	filter: blur(10px);
+		    }
+		    40% {
+		    	filter: blur(0px);
+		    }
+		    60% {
+		    	filter: blur(5px);
+		    }
+		    100% {
+		    	filter: blur(0px);
+		    }
+		}
 	</style>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -76,14 +123,24 @@
 		</header>
 		<div class="container">
 			<section>
-				<div class="image fit"><img src="images/banner.svg" alt="" /></div>
-				<h3>Against counterfeit products</h3>
-				<p>An embedded youtube video story of the product here.</p>
-				<ul style="text-align: center;" class="actions">
-					<li>
-						<a title="Infroid authenticate" href="authenticate.infroid.in" class="button alt">Explore Infroid Authenticate</a>
-					</li>
-				</ul>
+			<div class="row">
+				<div class="8u">
+					<h3>Against counterfeit products</h3>
+					<p>Using the simple QR technology and combining it with numerous other technologies, Infroid Authenticate can now provide solutions for authentication and validation of certain products simply by scanning the QR code.</p>
+					<ul class="actions">
+						<li>
+							<a title="Infroid authenticate" href="authenticate.infroid.in" class="button alt">Explore Infroid Authenticate</a>
+						</li>
+					</ul>
+				</div>
+				<div class="4u">
+					<div style="min-height: 360px;">
+						<div style="text-align:center;min-height: 360px;background-image: url('images/mobile.svg'); background-repeat:no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;">
+							<img style="padding-top:100px;max-width: 150px; max-height: 250px;" id="qr_animation" src="images/qr.jpeg" alt="Infroid QR" />
+						</div>
+					</div>
+				</div>
+			</div>
 			</section>
 			<hr class="major" />
 			<div class="row">
