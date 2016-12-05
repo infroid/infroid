@@ -9,6 +9,9 @@
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
+	table {
+		font-size: 10pt;
+	}
 
 /* Banner */
 

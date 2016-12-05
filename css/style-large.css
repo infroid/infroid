@@ -9,6 +9,9 @@
 	body, input, select, textarea {
 		font-size: 11pt;
 	}
+	table {
+		font-size: 8pt;
+	}
 
 /* Banner */
 
@@ -17,7 +20,7 @@
 	}
 
 		#banner h2 {
-			font-size: 2.5em;
+			font-size: 3em;
 		}
 
 /* Footer */

@@ -134,9 +134,9 @@
 					</ul>
 				</div>
 				<div class="4u">
-					<div style="min-height: 360px;">
-						<div style="text-align:center;min-height: 360px;background-image: url('images/mobile.svg'); background-repeat:no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;">
-							<img style="padding-top:100px;max-width: 150px; max-height: 250px;" id="qr_animation" src="images/qr.jpeg" alt="Infroid QR" />
+					<div>
+						<div id="mobile" style="text-align:center;min-height: 360px;background-image: url('images/mobile.svg'); background-repeat:no-repeat;">
+							<img style="padding-top:100px;max-width: 100px; max-height: 200px;" id="qr_animation" src="images/qr.jpeg" alt="Infroid QR" />
 						</div>
 					</div>
 				</div>
@@ -247,7 +247,14 @@
 	</footer>
 	<script type="text/javascript">
 		window.onload = function() 
-		 { document.getElementById("top").style.display = "inline"; }
+		 { 
+		 	document.getElementById("top").style.display = "inline"; 
+		 	var h= (window.innerHeight || document.body.clientHeight);
+		   	document.getElementById("mobile").style.minHeight = (h/2)+'px';
+		   	document.getElementById("mobile").style.backgroundSize  = '100% '+(h/2)+'px';
+		   	document.getElementById("qr_animation").style.maxHeight  = (h/3)+'px';
+		   	document.getElementById("qr_animation").style.paddingTop  = (h/6)+'px';
+		 }
 	</script>
 </body>
-</html>
+</html>file:///C:/Users/Aman/Desktop/infroid_static/images/iot.svg
