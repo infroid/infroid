@@ -301,7 +301,11 @@
 	</footer>
 	<script type="text/javascript">
 		window.onload = function() 
-		 { document.getElementById("top").style.display = "inline"; }
+		 { 
+		 	document.getElementById("top").style.display = "inline";
+		   	var h= (window.innerHeight || document.body.clientHeight);
+		   	document.getElementById("banner").style.minHeight = h+'px';
+		 }
 	</script>
 </body>
 </html>
