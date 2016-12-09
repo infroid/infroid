@@ -7,10 +7,10 @@
 /* Basic */
 
 	body, input, select, textarea {
-		font-size: 12pt;
+		font-size: 1em;
 	}
 	table {
-		font-size: 10pt;
+		font-size: .5em;
 	}
 
 	h2 {
