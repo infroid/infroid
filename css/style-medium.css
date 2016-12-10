@@ -9,10 +9,10 @@
 /* Basic */
 
 	body, input, select, textarea {
-		font-size: 1em;
+		font-size: .9em;
 	}
 	table {
-		font-size: .6em;
+		font-size: .7em;
 	}
 
 /* Wrapper */
