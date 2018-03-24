@@ -9,27 +9,32 @@
 
 <url>
   <loc>https://infroid.in/</loc>
-  <lastmod>2018-03-18T22:17:59+00:00</lastmod>
+  <lastmod>2018-03-24T23:49:55+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://infroid.in/index.html</loc>
-  <lastmod>2018-03-18T22:17:59+00:00</lastmod>
+  <lastmod>2018-03-24T23:49:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://infroid.in/services.html</loc>
-  <lastmod>2018-03-18T22:17:59+00:00</lastmod>
+  <lastmod>2018-03-24T23:49:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://infroid.in/products.html</loc>
-  <lastmod>2018-03-18T22:17:59+00:00</lastmod>
+  <lastmod>2018-03-24T23:49:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://infroid.in/stories.html</loc>
-  <lastmod>2018-03-18T22:17:59+00:00</lastmod>
+  <lastmod>2018-03-24T23:49:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://infroid.in/sitemap.html</loc>
+  <lastmod>2018-03-24T23:49:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
